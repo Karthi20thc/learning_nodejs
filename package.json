@@ -23,5 +23,10 @@
   "homepage": "https://github.com/Karthi20thc/learning_nodejs#readme",
   "dependencies": {
     "express": "^5.2.1"
+  },
+  "devDependencies": {
+    "@types/node": "^25.2.2",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3"
   }
 }
