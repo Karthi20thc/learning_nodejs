@@ -25,8 +25,9 @@ async function performTasks() {
     try {
 
         const result1 = await promise1;
-        console.log("sync operation")
         console.log(result1); // First task completed
+
+        console.log("sync operation")
 
         const result2 = await promise2;
         console.log(result2); // Second task completed
